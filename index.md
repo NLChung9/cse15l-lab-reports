@@ -7,4 +7,4 @@
 
 [Link](http:slither.io)
 
-![Image](http://bear.png)
+![Image](https://stuartcollection.ucsd.edu/_images/artists/hawkinson-bear/Main_hawkinson-01.jpg)
