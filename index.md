@@ -21,3 +21,11 @@
 
 Horizontal Rule:
 ---
+
+`Inline code` with backticks
+
+```
+# Code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
