@@ -11,21 +11,27 @@
 
 > Blockquote
 
-* List
-* Listed
-* Listing
+List of fruits
+* Apple
+* Apricot
+* Banana
 
-1. Numbered List
-2. Llalala
-3. Kasamsas
+List of numbers
+1. 1
+2. 2
+3. 3
 
 Horizontal Rule:
 ---
 
 `Inline code` with backticks
 
+`YOU CAN'T ADD LINKS IN INLINE CODE WTHHHH`
+
 ```
 # Code block
 print '3 backticks or'
 print 'indent 4 spaces'
+
+Also hi
 ```
