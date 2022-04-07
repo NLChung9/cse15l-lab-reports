@@ -7,4 +7,4 @@
 
 [Link](http:slither.io)
 
-![Image](http://agar.io/bear.png)
+![Image](http://bear.png)
