@@ -46,12 +46,34 @@ I ran the following commands:
 Share a screenshot using SSH and SCP
 
 ![Image](SSHSCP.png "ssh scp Screenshot")
+<br />
+  
+**Part 6: SSH Keys**
 
+First, I created a private key pair in my computer.
+  
+![Image](PrivateKeyPair.png "Private Key Pair")
 
+Then, I copied the PUBLIC key into the .ssh directory of my user account on the server.
+After doing this, I was able to log in and scp a file over in one step.
+  
+![Image](SCP+SSH.png "SCP + SSH")
+<br />
 
+**Step 7: Making Remote Running even more pleasant**
 
+Using techniques shown in class, come up with a way to copy a saved file and run it in under 10 keystrokes.
 
+My solution: (Some file names, usernames have been filled in with my information)
+  
+$ scp /Users/aweso/.ssh/id_rsa.pub cs15lsp22amg@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  
+$ ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI”
+  
+**Step 8: Wrapup**
 
-
+*Do you have any open questions about things you saw that you don’t understand?*
+  
+For some reason, scp doesn’t work. After I save the file and try copying it over, the server still only has the older version.
 
 
