@@ -20,11 +20,32 @@ My introduction:
 Everyone share a screenshot of VSCode open!
 
 ![Image](VSCode.png "VSCode Screenshot")
+<br />
 
+**Part 3: Remotely Connection**
+Log into the account, then share a screenshot of the output.
 
+![Image](LogIn.png "LogIn Screenshot")
+<br />
 
+**Part 4: Run Some Commands**
 
+I ran the following commands:
 
+* cd ~
+* cd 
+* ls -lat
+* ls -a
+* ls <directory>, where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22amg
+* cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+<br />
+
+**Part 5: Moving Files over SSH with scp**
+  
+Share a screenshot using SSH and SCP
+
+![Image](SSHSCP.png "ssh scp Screenshot")
 
 
 
