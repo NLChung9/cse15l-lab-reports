@@ -7,6 +7,8 @@
 
 [Use a pair of brackets to make a link](http:slither.io)
 
+[Markdown cheat sheet](https://commonmark.org/help/)
+
 ![Image](https://stuartcollection.ucsd.edu/_images/artists/hawkinson-bear/Main_hawkinson-01.jpg)
 
 > Blockquote
