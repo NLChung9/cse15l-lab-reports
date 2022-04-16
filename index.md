@@ -5,6 +5,8 @@
 # Heading 1
 ## Heading 2
 
+[Lab Report 1](https://nlchung9.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
 [Use a pair of brackets to make a link](http:slither.io)
 
 [Markdown cheat sheet](https://commonmark.org/help/)
