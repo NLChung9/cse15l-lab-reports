@@ -41,12 +41,12 @@ cat --> (Concatenate)
 * cd 
 * ls -lat
 * ls -a
-* ls <directory>, where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22amg
+* ls (directory), where (directory) is /home/linux/ieng6/cs15lsp22/cs15lsp22amg
 * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
 <br />
 
-![Image](ls-lat.png "Running 'ls -lat'")
+![Image](RunningLS.png "Running ls commands")
   
 **Part 5: Moving Files over SSH with scp**
   
@@ -75,8 +75,10 @@ My solution: (Some file names, usernames have been filled in with my information
   
 $ scp /Users/aweso/.ssh/id_rsa.pub cs15lsp22amg@ieng6.ucsd.edu:~/.ssh/authorized_keys
   
-$ ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI”
-  
+$ ssh cs15lsp22amg@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+
+![Image](SCPSSHRUN.png "SCP, SSH, Compiles and Runs the file")
+
 **Step 8: Wrapup**
 
 *Do you have any open questions about things you saw that you don’t understand?*
