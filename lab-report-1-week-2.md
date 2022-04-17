@@ -4,10 +4,10 @@
 
 Introduce yourself by stating the following:
   1. Name/nickname + pronouns
-  2. One of the following:
-    -A UCSD Student Organization you're a member of or interested in
-    -What UCSD college you're in
-    -Where you're calling in from
+  2. One of the following:<br />
+    - A UCSD Student Organization you're a member of or interested in<br />
+    - What UCSD college you're in<br />
+    - Where you're calling in from
   3. One mistake that you've made in the past involving coding/homework/computer stuff
 
 My introduction:
