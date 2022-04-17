@@ -31,7 +31,11 @@ ssh cs15lsp22amg@ieng6.ucsd.edu
 
 **Part 4: Run Some Commands**
 
-I ran the following commands:
+I ran the following commands:<br />
+cd ---> (Change Directory)<br />
+ls ---> (Listing Directory)<br />
+cp ---> (Copy a file to another directory)<br />
+cat --> (Concatenate)
 
 * cd ~
 * cd 
@@ -42,6 +46,8 @@ I ran the following commands:
 * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
 <br />
 
+![Image](ls-lat.png "Running 'ls -lat'")
+  
 **Part 5: Moving Files over SSH with scp**
   
 Share a screenshot using SSH and SCP
