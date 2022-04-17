@@ -25,6 +25,7 @@ Everyone share a screenshot of VSCode open!
 **Part 3: Remotely Connection**
 Log into the account, then share a screenshot of the output.
 
+ssh cs15lsp22amg@ieng6.ucsd.edu
 ![Image](LogIn.png "LogIn Screenshot")
 <br />
 
