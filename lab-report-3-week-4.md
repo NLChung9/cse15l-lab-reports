@@ -72,7 +72,11 @@ If openBracket == -1, that means there are no more "[" in the text. Because open
 
 **Part 5: repeating the Process**
 
-> Create two more breaking tests, then two fixes to the program.
+> Repeat the following steps:
+> 1. Create a test file that fails
+> 2. Commit/push it with the failing output in a commit message
+> 3. Fix the program so it succeeds on that test, and on all previous tests
+> 4. Commit/push the fix
 
 
 
