@@ -7,7 +7,7 @@
 > Run the program on one of the examples you wrote last week. Is the output correct? How do you know?
 
 Yes, the output is correct. According to the instructions from the last lab, we needed to create a method that returned every link that was present in a given markdown file. The program successfully returned a list of all the links that were in the markdown file.<br />
-![Image](LabReport4Part1.png)
+![Image](lab4/LabReport4Part1.png)
 
 > **Write in notes**: what process did your team go through to justify that the output was correct? Did you remember what it was supposed to be or did you have to open the file to verify?
 
@@ -28,4 +28,13 @@ It took me ~15 seconds.
 <br />
 
 **Part 3: Setting up Junit**
+> Download these two .jar files.<br />
+> [junit-4.13.2.jar](https://github.com/nidhidhamnani/markdown-parser/blob/main/lib/junit-4.13.2.jar)<br />
+> [hamcrest-core-1.3.jar](https://github.com/nidhidhamnani/markdown-parser/blob/main/lib/hamcrest-core-1.3.jar)
+> 
+> Then, make a directory called lib in your project, and copy both of those files to that directory. Commit and push the files once they are added to lib (this is a useful step because it ensures that you see them in your repository!)
+> 
+> In the .gitignore file, delete "*.jar".
+> 
+> Next, create a file called MarkdownParseTest.java in your repository. Put the following code in the file:
 
