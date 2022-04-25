@@ -7,6 +7,8 @@
 
 [Lab Report 1](https://nlchung9.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Lab Report 2](https://nlchung9.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
 [Use a pair of brackets to make a link](http:slither.io)
 
 [Markdown cheat sheet](https://commonmark.org/help/)
