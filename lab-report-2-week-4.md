@@ -37,7 +37,7 @@ The symptom of this failure-inducing input was that it treated the fake link as 
 
 ![test-file-copy2-symptom](lab3/testfilecopy2symptom.png)
 
-MarkdownParse treated any "[brackets](parentheses)" sequence as a link. So, the "[not a link](not a .link)" sequence in the 
+MarkdownParse treated any "[brackets](parentheses pair)" sequence as a link. So, the "[not a link](not a .link)" sequence in the 
 failure-inducing input, which did not contain a link, was returned as a link.
 
 ### Code Change 3:
@@ -51,4 +51,8 @@ For the third code change, I added a pair of brackets into the file that were *n
 Similarly to Code Change 1, this failure-inducing input's symptom caused an infinite loop and a crash.
 
 ![test-file-copy3-symptom](lab3/testfilecopy3symptom.png)
+
+MarkdownParse searched for an open bracket, closed bracket, open parenthesis, and closed parenthesis, in that order.
+Only after finding the closed parenthesis would it update the current index. As a result, If there are brackets that aren't
+followed by parentheses, currentIndex would never be updated to surpass the file's length, and the loop would go on infinitely.
 
