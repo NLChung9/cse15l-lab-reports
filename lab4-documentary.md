@@ -37,4 +37,24 @@ It took me ~15 seconds.
 > In the .gitignore file, delete "*.jar".
 > 
 > Next, create a file called MarkdownParseTest.java in your repository. Put the following code in the file:
+> import static org.junit.Assert.*;
+> import org.junit.*;
+> public class MarkdownParseTest {
+>     @Test
+>     public void addition() {
+>         assertEquals(2, 1 + 1);
+>     }
+> }
+> Compile the test using:
+> javac -cp ".;lib\junit-4.13.2.jar;lib\hamcrest-core-1.3.jar" MarkdownParseTest.java
+> Run the test using:
+> java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
+
+The output of the command was the following:
+JUnit version 4.13.2
+.
+Time: 0.007
+
+OK (1 test)
+
 
