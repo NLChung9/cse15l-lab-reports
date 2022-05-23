@@ -11,6 +11,8 @@
 
 [Lab Report 3](https://nlchung9.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
 
+[Lab Report 4](https://nlchung9.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 [Use a pair of brackets to make a link](http:slither.io)
 
 [Markdown cheat sheet](https://commonmark.org/help/)
